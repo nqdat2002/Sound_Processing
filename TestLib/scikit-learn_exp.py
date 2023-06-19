@@ -25,7 +25,7 @@ clf = svm.LinearSVC()
 clf.fit(iris.data, iris.target)
 # predict for unseen data
 clf.predict([[ 5.0,  3.6,  1.3,  0.25]])
-# Parameters of model can be changed by using the attributes ending with an underscore
+# Parameters of models can be changed by using the attributes ending with an underscore
 #Các tham số của mô hình có thể được thay đổi bằng cách sử dụng các thuộc tính kết thúc bằng dấu gạch dưới
 print(clf.coef_ )
 
